@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://cdn.raw-labs.com/endpoint-schemaV0.9.json
+raw: 0.9
+endpoint: GET
+metadata:
+  title: All facts
+  description: List of facts.
+  tags:
+    - facts
+code: rql
+declaration: fun_facts
+codeFile: facts.rql
+format: json
+security:
+  public: true
+computeClass: normal
+enabled: true
+tests:
+  - name: all_facts
+    description: Run the 'All facts' endpoint.
