@@ -1,6 +1,6 @@
 facts := READ("https://kingsebastian.github.io/UsefullLinks/Sample.csv");
 
-fun_facts(id: string) := {
+fun_facts(id: bit) := {
     SELECT FACT
     FROM facts
     WHERE ID = id
