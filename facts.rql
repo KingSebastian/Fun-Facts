@@ -1,0 +1,6 @@
+facts := READ("https://kingsebastian.github.io/UsefullLinks/Sample.csv");
+
+fun_facts() := {
+    SELECT FACT
+    FROM facts
+}
