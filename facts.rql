@@ -3,4 +3,5 @@ facts := READ("https://kingsebastian.github.io/UsefullLinks/Sample.csv");
 fun_facts(id: string) := {
     SELECT FACT
     FROM facts
+    WHERE ID = id
 }
