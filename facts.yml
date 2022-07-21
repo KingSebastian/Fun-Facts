@@ -9,7 +9,7 @@ metadata:
 code: rql
 declaration: fun_facts
 codeFile: facts.rql
-format: string
+format: csv
 security:
   public: true
 computeClass: normal
