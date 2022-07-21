@@ -1,7 +1,7 @@
 facts := READ("https://kingsebastian.github.io/UsefullLinks/Sample.csv");
 
 fun_facts(person: string) := {
-    SELECT CONCAT(NAME, ", " , FACT)
+    SELECT CONCAT(" ", NAME, ", " , FACT, " ")
     FROM facts
     WHERE ID = person
 }
